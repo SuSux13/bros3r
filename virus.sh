@@ -1,3 +1,4 @@
+proxychains4 nmap -Pn  -T4 -sV -sC -v --scanflags TCPACKSYNRSTFIN -p 21,25,80,110,3306 --ttl lulzwrzcle5ks3se.onion
 proxychains4 nmap -Pn -sV -v --scanflags TCPACKSYNRSTFIN -T4 -PP -sC 21,6,25,3306,80,110 --dns-servers 8.8.8.8,4.4.4.4 lulzwrzcle5ks3se.onion
 
 proxychains4 nmap -Pn -sV -v --scanflags TCPACKSYNRSTFIN -T4 -PP -sC 21,6,25,3306,80,110 --dns-servers 8.8.8.8,4.4.4.4 -PR --spoof-mac 5C:4C:A9:F2:DC:7C
